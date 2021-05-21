@@ -8,8 +8,8 @@
   - Threads can be controlled by "no_of_socket_threads" parameter and is defined in main block.
  
 - TO DOs:
-  - Code starts with threads defined, so even if the its not serving any request, once threads are spawned its going to consume the constant
-    constant memory.
+  - Code starts with threads defined, so even if its not serving any request, as soon as threads are spawned its going to consume the constant
+    amount of memory.
   - Solution of the problem is implementing the Thread Executor Pool of python.
   - But the problem with Thread Executor Pool, is it doesn't grows and shrinks Dynamically.
   - Thread Executor Pools problem of Dynamic Shrinking and Scaling can also be solved by implementing 
